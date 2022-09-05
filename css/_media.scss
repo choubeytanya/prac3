@@ -1,0 +1,235 @@
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .topbar {
+    .logo {
+      .logo-heading {
+        font-size: 20px;
+      }
+    }
+  }
+  .menu {
+    .order-now {
+      .order {
+        .order-item {
+          .about {
+            .order-btn {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .topbar {
+    .logo {
+      .logo-img {
+        height: 40px;
+        width: 40px;
+      }
+      .logo-heading {
+        font-size: 20px;
+      }
+    }
+
+    .navbar {
+      .navbar-ul {
+        .list {
+          a {
+            font-size: 15px;
+            margin: 0 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .menu {
+    .container {
+      .btn {
+        padding: 15px;
+        font-size: 12px;
+      }
+    }
+
+    .order-now {
+      .order {
+        .order-item {
+          .about {
+            .order-btn {
+              padding: 15px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-section {
+    .footer-head {
+      .main-section {
+        .footer-container {
+          margin: 45px 0;
+          p {
+            font-size: 15px;
+          }
+          .footer-logo {
+            .footer-img{
+              width: 60px;
+              height: 60px;
+            }
+            h2 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .topbar {
+    .topbar-header {
+      flex-direction: column;
+      padding: 10px;
+      .logo {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .navbar {
+        .navbar-ul {
+          .list {
+            a {
+              font-size: 12px;
+              margin: 0 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .menu {
+    margin: 0;
+    .menu-container {
+      .container {
+        .items {
+          flex-direction: column;
+          .popular,
+          .favourite {
+            width: 100%;
+            img {
+              margin-bottom: 10px;
+            }
+          }
+        }
+        .btn {
+          padding: 13px;
+          font-size: 12px;
+        }
+      }
+
+      .order-now {
+        .heading {
+          width: 85%;
+          margin: 0 auto;
+        }
+
+        .order {
+          flex-wrap: wrap;
+          .order-item {
+            width: 80%;
+            margin: 0 auto;
+            .about {
+              .about-heading {
+                font-size: 20px;
+              }
+              .order-btn {
+                padding: 8px;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .event {
+    .event-container {
+      .about-us {
+        flex-direction: column-reverse;
+        .event-img,
+        .event-content {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .contact {
+    padding: 30px 0px;
+    .contact-info {
+      .contact-para{
+        font-size: 15px;
+      }
+      .contact-header {
+        font-size: 30px;
+      }
+      .contact-form {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .footer-section {
+    .footer-head {
+      .main-section {
+        flex-direction: column;
+        .footer-container {
+          width: 100%;
+          margin: 20px 0;
+          p {
+            font-size: 12px;
+          }
+          .footer-logo {
+            .footer-img {
+              width: 60px;
+              height: 60px;
+            }
+            h2 {
+              font-size: 25px;
+            }
+          }
+        }
+        .footer-address {
+          margin: 0;
+          align-self: flex-start;
+          .icon {
+            font-size: 15px;
+            margin: 6px;
+          }
+          p {
+            span {
+              font-weight: 100;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .footer-end {
+        flex-direction: column-reverse;
+        align-items: center;
+        .contact-logo {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
